@@ -82,7 +82,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "ffakmal99",
+              "accessToken": "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",
+              "repository": "ffakmal99/testdataiku"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
